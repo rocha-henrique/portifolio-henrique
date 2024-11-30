@@ -10,13 +10,10 @@
   gap: 1.5vw;
 }
 
-.container-perfil {
-  border-radius: 100%;
-}
-
 .perfil {
   border-radius: 100%;
   background-color: #084969;
+  border: solid white 2px;  
   width: 10vw;
 }
 

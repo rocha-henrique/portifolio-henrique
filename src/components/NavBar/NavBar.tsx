@@ -14,9 +14,7 @@ import './NavBar.css'
 const NavBar = () => {
   return (
     <div className='navbar-esquerda'>
-      <div className='container-perfil'>
         < LottiePerfil />
-      </div>
 
       <a href='https://github.com/rocha-henrique' className='button-github' target="_blank"> <img className='img-github' src={GitHub} alt="" /></a>
 

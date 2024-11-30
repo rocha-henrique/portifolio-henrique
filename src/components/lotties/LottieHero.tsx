@@ -1,5 +1,5 @@
 import Player from 'lottie-react';
-import lottieHero from '../../assets/lotties/computador.json';
+import lottieHero from '../../assets/lotties/Computador.json';
 
 const LottieHero = () => {
   return (

@@ -1,19 +1,15 @@
 .container-hard-skills {
   display: flex;
   flex-direction: column;
-  height: 100vw;
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  z-index: -1;
-  padding: 6vw 1.8vw 4.3vw 24vw;
+  height: 112vh;
+  padding: 2vw 1vw 0vw 24.5vw;
   gap: 2vw;
 }
 
 .container-text-title {
   display: flex;
   flex-direction: column;
-  gap: 2vw;
+  gap: 1vw;
 }
 
 .container-skills {
@@ -33,14 +29,13 @@
   overflow: hidden;
   position: relative;
   width: 36vw;
-  margin-bottom: 0.5vw;
+  margin-bottom: 1.5vw;
 }
 
 .progress-bar {
   height: 100%;
   background-color: #61DAFB;
   transition: width 0.1s ease-in-out;
-
 }
 
 .progress-text {
@@ -52,8 +47,9 @@
   color: #000;
   font-weight: bold;
 }
+/* ProgressBar.css */
 
-.container-text-skills {
-  display: flex;
-  flex-direction: row;
+
+.text-skills {
+  font-size: 1.4vw;
 }
