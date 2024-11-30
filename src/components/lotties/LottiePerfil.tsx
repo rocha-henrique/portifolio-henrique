@@ -1,10 +1,9 @@
 import Player from 'lottie-react';
-import animationData from '../assets/lotties/skills.json';
-import '../App.css'
+import animationData from '../../assets/lotties/perfil.json';
 
 const LottieSkill = () => {
   return (
-    <div className='linguagem'>
+    <div className='perfil'>
       <Player 
         animationData={animationData} 
         loop 

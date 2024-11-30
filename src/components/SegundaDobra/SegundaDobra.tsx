@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import LottieSkill from "../LottieSkill";
 import './SegundaDobra.css'
 
 const SegundaDobra = () => {
@@ -31,7 +30,6 @@ const SegundaDobra = () => {
     </div>
 
     <div className='container-img-linguagem'>
-      <LottieSkill />
     </div>
 
   <div className='container-skills'>

@@ -1,4 +1,3 @@
-import fotoPerfil from '../../assets/Hero/FotoPerfil.png'
 import instagram from '../../assets/Hero/instagram.png'
 import relatorio from '../../assets/Hero/relatorio.png'
 import linkedin from '../../assets/Hero/linkedin.png'
@@ -9,11 +8,16 @@ import gmail from '../../assets/Hero/gmail.png'
 import email from '../../assets/Hero/email.png'
 import home from '../../assets/Hero/Home.png'
 import X from '../../assets/Hero/X.png'
+import LottiePerfil from '../lotties/LottiePerfil';
+import './NavBar.css'
 
 const NavBar = () => {
   return (
     <div className='navbar-esquerda'>
-      <img className='img-perfil' src={fotoPerfil} alt="" />
+      <div className='container-perfil'>
+        < LottiePerfil />
+      </div>
+
       <a href='https://github.com/rocha-henrique' className='button-github' target="_blank"> <img className='img-github' src={GitHub} alt="" /></a>
 
       <div className='container-redes-sociais'>
