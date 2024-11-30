@@ -35,7 +35,7 @@ const SegundaDobra = () => {
     </div>
 
   <div className='container-skills'>
-    <div className='container-primeiras-skills'>
+    <div className='container-primeira-skills'>
       <label htmlFor=""> JavaScript
         <div className="progress-container">
           <div className="progress-bar" style={{ width: `${progress}%` }}></div>

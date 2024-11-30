@@ -5,6 +5,7 @@ const Hero = () => {
   return (
     <div className='container-hero'>
       <img className='img-hero' src={backGround} alt="BackGround" />
+      <p></p>
     </div>
   );
 };
