@@ -7,7 +7,6 @@ import GitHub from '../../assets/Hero/GitHub.png'
 import gmail from '../../assets/Hero/gmail.png'
 import email from '../../assets/Hero/email.png'
 import home from '../../assets/Hero/Home.png'
-import X from '../../assets/Hero/X.png'
 import LottiePerfil from '../lotties/LottiePerfil';
 import './NavBar.css'
 
@@ -19,8 +18,7 @@ const NavBar = () => {
       <a href='https://github.com/rocha-henrique' className='button-github' target="_blank"> <img className='img-github' src={GitHub} alt="" /></a>
 
       <div className='container-redes-sociais'>
-        <button className='button-redes' ><img className='img-redes' src={linkedin} alt="" /></button>
-        <button className='button-redes' ><img className='img-redes' src={X} alt="" /></button>
+        <a className='button-redes' ><img className='img-redes' src={linkedin} alt="" /></a>
         <button className='button-redes' ><img className='img-redes' src={gmail} alt="" /></button>
         <button className='button-redes' ><img className='img-redes' src={instagram} alt="" /></button>
       </div>
