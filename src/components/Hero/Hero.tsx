@@ -5,7 +5,7 @@ import './Hero.css'
 const Hero = () => {
   return (
     <div className='container-hero'>
-      <img className='img-hero' src={backGroundColor} alt="BackGround" />
+      <img id='backGroundColor' className='img-hero' src={backGroundColor} alt="BackGround" />
       <div className='container-title'>
         <h1 className='title-hero'>Desenvolvedor Full-stack</h1>
         <br />

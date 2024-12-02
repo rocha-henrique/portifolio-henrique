@@ -12,31 +12,31 @@ import './NavBar.css'
 const NavBar = () => {
   return (
     <div className='navbar-esquerda'>
-        < LottiePerfil />
+        <a href="#backGroundColor">< LottiePerfil /></a>
 
       <a href='https://github.com/rocha-henrique' className='button-github' target="_blank"> <img className='img-github' src={GitHub} alt="" /></a>
 
       <div className='container-redes-sociais'>
-        <a className='button-redes' ><img className='img-redes' src={linkedin} alt="" /></a>
-        <a className='button-redes' ><img className='img-redes' src={gmail} alt="" /></a>
-        <a className='button-redes' ><img className='img-redes' src={instagram} alt="" /></a>
+        <a href='https://linkedin.com/in/dev-henrique-rocha/' target='_blank' className='button-redes' ><img className='img-redes' src={linkedin} alt="" /></a>
+        <a href='https://rochahenrique.1023@gmail.com' target='_blank' className='button-redes' ><img className='img-redes' src={gmail} alt="" /></a>
+        <a href='https://instagram.com/henrique.rocha_/' target="_blank" className='button-redes' ><img className='img-redes' src={instagram} alt="" /></a>
       </div>
 
       <div className='container-links'>
-        <a className='container-navigation'>
-          <button className='button-navigation' ><img className='img-navigation' src={usuario} alt="" /></button>
+        <a href="#segundaDobra" className='container-navigation'>
+          <img src={usuario} alt="" />
         <p>Sobre</p>
         </a>
         <a className='container-navigation'>
-          <button className='button-navigation' ><img className='img-navigation' src={relatorio} alt="" /></button>
+          <img src={relatorio} alt="" />
         <p>Skills</p>
         </a>
         <a className='container-navigation'>
-          <button className='button-navigation' ><img className='img-navigation' src={galeria} alt="" /></button>
+          <img src={galeria} alt="" />
         <p>Portifólio</p>
         </a>
         <a className='container-navigation'>
-          <button className='button-navigation' ><img className='img-navigation' src={email} alt="" /></button>
+          <img src={email} alt="" />
         <p>Contato</p>
         </a>
       </div>

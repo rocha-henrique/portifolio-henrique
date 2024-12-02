@@ -7,7 +7,7 @@
   width: 23%;
   height: 100%;
   position: fixed;
-  gap: 1.5vw;
+  gap: 2vw;
 }
 
 .perfil {
@@ -22,7 +22,7 @@
   padding: 0;
   border: 0;
   border-radius: 0.6vw;
-  background-color: #dedede;
+  background-color: white;
 }
 
 .img-github {
@@ -38,36 +38,22 @@
   display: flex;
   justify-content: center;
   border-radius: 100vw;
-  padding: 0;
 }
 
 .img-redes {
   width: 3vw;
-  border-radius: 100%;
-  background-color: #dedede;
+  border-radius: 50%;
+  background-color: white;
+  padding: 0.13vw;
 }
 
 .container-links {
   display: flex;
-  flex-direction: column;
-  gap: 1.5vw;
-  padding-left: 1.3vw;
+  padding-left: 3vw;
   align-self: flex-start;
-  color: white;
-}
-
-.button-navigation {
-  display: flex;
-  justify-content: center;
-  border-radius: 100vw;
-  width: 3vw;
-  padding: 0.4vw;
-  border: 0;
-  background-color: #dedede;
-}
-
-.img-navigation {
-  width: 2vw;
+  flex-direction: column;
+  color: black;
+  gap: 2vw;
 }
 
 .container-navigation {
@@ -75,5 +61,10 @@
   cursor: pointer;
   color: inherit;
   font-size: 1.6vw;
+  align-items: center;
+  background-color: white;
+  font-weight: 400;
+  border-radius: 30px;
+  padding: 0 1vw 0 1vw;
   gap: 1vw;
 }

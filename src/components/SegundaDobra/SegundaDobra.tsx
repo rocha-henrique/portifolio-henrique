@@ -57,7 +57,7 @@ const SegundaDobra = () => {
   }, [isVisible]);
 
   return (
-    <div ref={sectionRef} className="container-hard-skills">
+    <div ref={sectionRef} id="segundaDobra" className="container-hard-skills">
       <div className="container-text-title">
         <h1 className="title-skills">Hard Skills</h1>
         <h3 className="subtitle-skills">
