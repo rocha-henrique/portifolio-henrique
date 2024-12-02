@@ -22,8 +22,8 @@
 }
 
 .title-hero {
-  font-size: 3vw;
-  font-weight: 400;
+  font-size: 3.5vw;
+  font-weight: 600;
   text-align: center;
   opacity: 0;
   animation: fadeInSlideUp 1s ease-out forwards;

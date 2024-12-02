@@ -7,9 +7,9 @@ const Hero = () => {
     <div className='container-hero'>
       <img id='backGroundColor' className='img-hero' src={backGroundColor} alt="BackGround" />
       <div className='container-title'>
-        <h1 className='title-hero'>Desenvolvedor Full-stack</h1>
-        <br />
         <h1 className='title-hero'>Henrique Rocha</h1>
+        <br />
+        <h1 className='title-hero'>Desenvolvedor Full-stack</h1>
       </div>
       < LottieHero />
     </div>
