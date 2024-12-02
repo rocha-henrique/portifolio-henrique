@@ -6,7 +6,6 @@ import galeria from '../../assets/Hero/galeria.png'
 import GitHub from '../../assets/Hero/GitHub.png'
 import gmail from '../../assets/Hero/gmail.png'
 import email from '../../assets/Hero/email.png'
-import home from '../../assets/Hero/Home.png'
 import LottiePerfil from '../lotties/LottiePerfil';
 import './NavBar.css'
 
@@ -19,15 +18,11 @@ const NavBar = () => {
 
       <div className='container-redes-sociais'>
         <a className='button-redes' ><img className='img-redes' src={linkedin} alt="" /></a>
-        <button className='button-redes' ><img className='img-redes' src={gmail} alt="" /></button>
-        <button className='button-redes' ><img className='img-redes' src={instagram} alt="" /></button>
+        <a className='button-redes' ><img className='img-redes' src={gmail} alt="" /></a>
+        <a className='button-redes' ><img className='img-redes' src={instagram} alt="" /></a>
       </div>
 
       <div className='container-links'>
-        <a className='container-navigation'>
-          <button className='button-navigation' ><img className='img-navigation' src={home} alt="" /></button>
-          <p>Home</p>
-        </a>
         <a className='container-navigation'>
           <button className='button-navigation' ><img className='img-navigation' src={usuario} alt="" /></button>
         <p>Sobre</p>

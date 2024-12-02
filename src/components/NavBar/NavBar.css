@@ -31,20 +31,20 @@
 
 .container-redes-sociais {
   display: flex;
-  gap: 1.5vw;
+  gap: 2vw;
 }
 
 .button-redes {
   display: flex;
   justify-content: center;
   border-radius: 100vw;
-  padding: 0.5vw;
-  border: 0;
-  background-color: #dedede;
+  padding: 0;
 }
 
 .img-redes {
-  width: 2vw;
+  width: 3vw;
+  border-radius: 100%;
+  background-color: #dedede;
 }
 
 .container-links {
@@ -63,7 +63,7 @@
   width: 3vw;
   padding: 0.4vw;
   border: 0;
-  background-color: white;
+  background-color: #dedede;
 }
 
 .img-navigation {
