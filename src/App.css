@@ -4,3 +4,19 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+:root {
+  --color-primary: #1E1B2E; /* Cor principal */
+  --color-secondary: white; /* Cor secundária */
+  --color-accent: ##b281f7; /* Cor de destaque */
+}
+
+body {
+  background-color: var(--color-primary); /* Fundo principal */
+  color: var(--color-secondary); /* Texto secundário */
+}
+
+button {
+  background-color: var(--color-accent); /* Botões de destaque */
+  color: white;
+}
