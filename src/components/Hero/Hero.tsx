@@ -9,7 +9,8 @@ const Hero = () => {
       <div className='container-title'>
         <h1 className='title-hero'>Henrique Rocha</h1>
         <br />
-        <h1 className='title-hero'>Desenvolvedor Full-stack</h1>
+        <h1>Desenvolvedor Full-Stack | Soluções Criativas e Eficientes</h1> <br />
+        <p>"Sou apaixonado por tecnologia e adoro transformar códigos em experiências incríveis. Seja um site pessoal ou um sistema robusto, estou aqui para fazer a mágica acontecer!"</p>
       </div>
       < LottieHero />
     </div>

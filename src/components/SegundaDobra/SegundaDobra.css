@@ -1,8 +1,9 @@
 .container-hard-skills {
   display: flex;
   flex-direction: column;
-  height: 112vh;
   padding: 2vw 1vw 0vw 24.5vw;
+  border-top: solid #454252 1px ;
+  height: 120vh;
   gap: 2vw;
 }
 

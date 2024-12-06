@@ -20,10 +20,10 @@ const NavBar = () => {
  
       <div className='container-links'>
         <span className='container'>
-          <button className='button'>Sobre</button>
+          <button className='button'><a style={{color: 'white'}} href="#segundaDobra">Skills</a></button>
         </span>
         <span className='container'>
-          <button className='button'>Skills</button>
+          <button className='button'><a style={{color: 'white'}} href="">Sobre</a></button>
         </span>
         <span className='container'>
           <button className='button'>Portifólio</button>

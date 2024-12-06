@@ -13,7 +13,7 @@
 .perfil {
   border-radius: 100%;
   background-color: #084969;
-  border: solid #b281f7 2px;  
+  border: solid white 1px;
   width: 10vw;
 }
 
@@ -22,7 +22,7 @@
   padding: 0;
   border: 0;
   border-radius: 0.6vw;
-  background-color: #b281f7;
+  background-color: white;
 }
 
 .img-github {
@@ -34,31 +34,41 @@
   gap: 2vw;
 }
 
+.button-redes {
+  display: flex;
+  border-radius: 100%;
+  padding: 1vw;
+  border: solid #b281f7 2px;
+  background-color: #1E1B2E;
+}
+
 .img-redes {
-  width: 4vw;
-  border-radius: 50%;
-  background-color: #b281f7;
+  width: 2vw;
 }
 
 .container-links {
   display: flex;
   flex-direction: column;
-  color: black;
-  gap: 1vw;
+  gap: 2vw;
 }
 
+
 button {
-  font-size: 1.4em;
+  font-size: 1.7vw;
   border-radius: 0.5em;
+  width: 100%;
   border: none;
   background-color: #1E1B2E;
   color: #fff;
   cursor: pointer;
+  border: solid #b281f7 1px;
   box-shadow: 2px 2px 3px #1E1B2E;
+
 }
 
 .container {
-  align-items: center;
+  display: flex;
+  justify-content: space-around;
   position: relative;
   background: #b281f7;
   border-radius: 0.9em;
@@ -69,7 +79,6 @@ button {
   content: "";
   position: absolute;
   inset: 0;
-  margin: auto;
   border-radius: 0.9em;
   z-index: -10;
   filter: blur(0);

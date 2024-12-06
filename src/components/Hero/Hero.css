@@ -1,6 +1,7 @@
 .container-hero {
   display: flex;
   height: 100vh;
+  justify-content: center;
 }
 
 @keyframes fadeInSlideUp {
@@ -16,7 +17,7 @@
 
 .container-title {
   padding-top: 2vw;
-  margin-left: 23vw;
+  margin-left: 22vw;
   width: 30%;
   color: white;
 }
@@ -38,6 +39,7 @@
 
 .lottieHero {
   right: 0;
-  width: 45vw;
-  position: absolute;
+  width: 40vw;
+  display: flex;
+  align-items: center;
 }
