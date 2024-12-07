@@ -11,12 +11,12 @@
   --color-accent: ##b281f7; /* Cor de destaque */
 }
 
-body {
-  background-color: var(--color-primary); /* Fundo principal */
-  color: var(--color-secondary); /* Texto secundário */
+/* body {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
   width: 100%;
   height: 100%;
   background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
   background-size: 30px 30px;
-  background-position: -5px -5px
-}
+  background-position: -5px -5px;
+} */
