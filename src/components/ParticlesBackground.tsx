@@ -39,8 +39,8 @@ const ParticlesBackground = () => {
         defaultThemes: {},
         delay: 0,
         fullScreen: {
-          enable: true,
-          zIndex: -1
+          enable: false,
+          zIndex: -2
         },
         detectRetina: true,
         duration: 0,
@@ -571,7 +571,7 @@ const ParticlesBackground = () => {
                 images: {
                   src: "https://particles.js.org/images/cyan_amongus.png",
                   width: 500,
-                  height: 634
+                  height: 400
                 }
               }
             },
@@ -617,11 +617,12 @@ const ParticlesBackground = () => {
 
     return (
         <Particles
+            className="particles-canvas"
             id="tsparticles"
             init={handleParticlesInit}
             loaded={handleParticlesLoaded}
             options={particleOptions}
-        />
+            />
     );
 };
 

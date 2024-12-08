@@ -1,18 +1,32 @@
-import backGroundColor from '../../assets/Hero/BackGroundColor.png'
-import LottieHero from '../lotties/LottieHero'
-import './Hero.css'
+import { useState, useEffect } from "react";
+import ParticlesBackground from "../ParticlesBackground";
+import './Hero.css';
 
 const Hero = () => {
+  const frases = [
+    "Imagine a solução perfeita para o seu problema...",
+    <> Acredite no poder <br/> de transformar ideias <br/> em realidade... </>,
+    "Sonhe alto com o projeto dos seus sonhos...",
+    <span className="frase-eu-realizo">E EU O REALIZO</span>,
+  ];
+
+  const [fraseAtual, setFraseAtual] = useState(0);
+
+  useEffect(() => {
+    const intervalo = setInterval(() => {
+      setFraseAtual((prev) => (prev + 1) % frases.length);
+    }, 5000); // Troca a cada 5 segundos
+    return () => clearInterval(intervalo); // Limpa o intervalo ao desmontar o componente
+  }, [frases.length]);
+
   return (
-    <div className='container-hero'>
-      <img id='backGroundColor' className='img-hero' src={backGroundColor} alt="BackGround" />
-      <div className='container-title'>
-        <h1 className='title-hero'>Henrique Rocha</h1>
-        <br />
-        <h1>Desenvolvedor Full-Stack | Soluções Criativas e Eficientes</h1> <br />
-        <p>"Sou apaixonado por tecnologia e adoro transformar códigos em experiências incríveis. Seja um site pessoal ou um sistema robusto, estou aqui para fazer a mágica acontecer!"</p>
+    <div className="container-hero">
+      <ParticlesBackground />
+      <div className="container-title">
+        <h2 className="frase-hero">
+          {frases[fraseAtual]}
+        </h2>
       </div>
-      < LottieHero />
     </div>
   );
 };
