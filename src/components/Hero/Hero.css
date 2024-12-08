@@ -34,8 +34,9 @@
 
 .frase-hero {
   text-transform: uppercase;
-  font-size: 5vw;
+  font-size: 3.5vw;
   font-weight: 600;
+  width: 90vw;
   color: #fff;
   text-align: center;
   animation: fade 5s ease-in-out;

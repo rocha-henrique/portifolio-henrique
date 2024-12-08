@@ -4,10 +4,10 @@ import './Hero.css';
 
 const Hero = () => {
   const frases = [
-    "Imagine a solução perfeita para o seu problema...",
-    <>Acredite no poder <br /> de transformar ideias <br /> em realidade...</>,
-    "Sonhe alto com os projetos dos seus sonhos...",
-    <span className="frase-eu-realizo">E EU OS REALIZAREI</span>,
+      "Imagine as soluções perfeitas para resolver os seus problemas.",
+      "Acredite no poder de transformar ideias em realidade",
+      <>Sonhe alto com os projetos <br/> dos seus sonhos</>,
+      <span className="frase-eu-realizo">E EU IREI REALIZÁ-LOS</span>,
   ];
 
   const [fraseAtual, setFraseAtual] = useState(0);
