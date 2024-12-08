@@ -28,7 +28,7 @@ const NavBar = () => {
           showNavbar ? "show-navbar" : "hide-navbar"
         }`}
       >
-          <a href="#backGroundColor">< LottiePerfil /></a>
+          <a href="#hero">< LottiePerfil /></a>
 
         <a href='https://github.com/rocha-henrique' className='button-github' target="_blank"> <img className='img-github' src={GitHub} alt="" /></a>
 

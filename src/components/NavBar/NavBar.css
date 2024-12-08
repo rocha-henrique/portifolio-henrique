@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3.47vw 2.5vw 10.20vw 1.66vw;
+  padding: 2vw;
   background: linear-gradient(180deg, #0E0E0E 29%, #3B5998 100%);
   width: 23%;
   height: 100%;
@@ -18,7 +18,7 @@
 }
 
 .navbar-esquerda.hide-navbar {
-  top: -100%; /* Esconde novamente */
+  top: 100%; /* Esconde novamente */
   opacity: 0;
 }
 
@@ -27,7 +27,6 @@
   top: 0;
   opacity: 1; /* Visível ao flutuar */
 }
-
 
 .perfil {
   border-radius: 100%;

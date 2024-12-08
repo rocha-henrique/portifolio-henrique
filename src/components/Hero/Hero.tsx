@@ -20,7 +20,7 @@ const Hero = () => {
   }, [frases.length]);
 
   return (
-    <div className="container-hero">
+    <div id="hero" className="container-hero">
       <ParticlesBackground />
       <div className="container-title">
         <h2 className="frase-hero">
