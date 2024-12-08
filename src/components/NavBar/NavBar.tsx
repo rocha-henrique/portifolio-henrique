@@ -43,7 +43,7 @@ const NavBar = () => {
             <button className='button'><a style={{color: 'white'}} href="#HardSkills">Skills</a></button>
           </span>
           <span className='container'>
-            <button className='button'>Portifólio</button>
+            <button className='button' ><a style={{color: 'white'}} href="#Portifolio">Portifólio</a></button>
           </span>
           <span className='container'>
             <button className='button'><a style={{color: 'white'}} href="">Sobre</a></button>

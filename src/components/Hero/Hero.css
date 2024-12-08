@@ -29,7 +29,7 @@
 }
 
 .frase-eu-realizo {
-  font-size: 10vw;
+  font-size: 9vw;
 }
 
 .frase-hero {
@@ -48,4 +48,37 @@
   height: 100%;
   width: 100%;
   z-index: -1;
+}
+
+.container-seta {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: fadeIn 1s ease-in; /* Transição suave na aparição */
+}
+
+.seta {
+  font-size: 5vw;
+  color: white;
+  cursor: pointer;
+  animation: bounce 1.5s infinite ease-in-out; /* Animação de subida e descida */
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1vw); /* Define o quanto a seta sobe */
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

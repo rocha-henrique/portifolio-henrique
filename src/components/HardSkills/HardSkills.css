@@ -28,7 +28,7 @@
 /* ProgressBar.css */
 .progress-container {
   width: 100%;
-  height: 4vh;
+  height: 3vh;
   background-color: #DEDEDE;
   border-radius: 4vw;
   overflow: hidden;
@@ -54,7 +54,7 @@
 }
 /* ProgressBar.css */
 
-
 .text-skills {
   font-size: 1.4vw;
+  background-color: black;
 }
