@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import NavBar from '../NavBar/NavBar';
-import './SegundaDobra.css';
-import { div } from "framer-motion/client";
+import './HardSkills.css';
 
 // Componente para exibir a barra de progresso para cada habilidade
 const SkillProgress = ({ skill, progress }: { skill: string; progress: number }) => (
@@ -14,7 +13,7 @@ const SkillProgress = ({ skill, progress }: { skill: string; progress: number })
   </label>
 );
 
-const SegundaDobra = () => {
+const HardSkills = () => {
   const [progress, setProgress] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
@@ -61,7 +60,7 @@ const SegundaDobra = () => {
   return (
     <div>
       <NavBar />
-    <div ref={sectionRef} id="segundaDobra" className="container-hard-skills">
+    <div ref={sectionRef} id="HardSkills" className="container-hard-skills">
       <div className="container-text-title">
         <h1 className="title-skills">Hard Skills</h1>
         <h3 className="subtitle-skills">
@@ -132,4 +131,4 @@ const SegundaDobra = () => {
   );
 };
 
-export default SegundaDobra;
+export default HardSkills;

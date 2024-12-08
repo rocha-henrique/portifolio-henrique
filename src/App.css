@@ -4,3 +4,19 @@
   box-sizing: border-box;
   font-family: "Orbitron", sans-serif;
 }
+
+:root {
+  --color-primary: #000000; /* Cor principal */
+  --color-secondary: white; /* Cor secundária */
+  --color-accent: ##b281f7; /* Cor de destaque */
+}
+
+body {
+  background-color: var(--color-primary); /* Fundo principal */
+  color: var(--color-secondary); /* Texto secundário */
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.171) 0.1vw, transparent 0);
+  background-size: 1.5vw 1.5vw;
+  z-index: -1;
+}

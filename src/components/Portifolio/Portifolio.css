@@ -1,0 +1,6 @@
+.container-portifolio {
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 1vw 2vw 24.5vw;
+  gap: 2vw;
+}
