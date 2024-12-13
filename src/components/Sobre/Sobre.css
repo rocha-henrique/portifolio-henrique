@@ -10,3 +10,14 @@
   background-image: radial-gradient(rgba(255, 255, 255, 0.171) 0.1vw, transparent 0);
   background-size: 1.5vw 1.5vw;
 }
+
+.container-title-sobre {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.img-perfil {
+  width: 20vw;
+  border-radius: 30%;
+}
