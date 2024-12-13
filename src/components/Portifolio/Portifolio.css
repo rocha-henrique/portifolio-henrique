@@ -1,7 +1,7 @@
 .container-portifolio {
   display: flex;
   flex-direction: column;
-  padding: 6vw 1vw 2vw 24.5vw;
+  padding: 6vw 1vw 0vw 24.5vw;
   gap: 4vw;
   background-color: var(--color-primary); /* Fundo principal */
   color: var(--color-secondary); /* Texto secundário */
