@@ -1,12 +1,14 @@
 import './App.css'
 import Hero from './components/Hero/Hero'
-import SegundaDobra from "./components/SegundaDobra/SegundaDobra";
+import HardSkills from "./components/HardSkills/HardSkills";
+import Portifolio from "./components/Portifolio/Portifolio"
 
 function App() {
   return (
     <div>
       <Hero />
-      <SegundaDobra />
+      <HardSkills />
+      <Portifolio />
     </div>
   )
 }
