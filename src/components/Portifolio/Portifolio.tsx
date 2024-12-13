@@ -1,5 +1,4 @@
 import './Portifolio.css';
-import x from '../../assets/Portifolio/X.png'
 
 const Portifolio = () => {
   
@@ -14,25 +13,25 @@ const Portifolio = () => {
         <div className='container-projetos'>
           <div className='container-cards'>
             <div className='card'>
-              <img src={x} alt="" />
+              <p className='frase-em-breve'>EM BREVE</p>
             </div>
             <div className='card'>
-              <img src={x} alt="" />
+              <p className='frase-em-breve'>EM BREVE</p>
             </div>
             <div className='card'>
-              <img src={x} alt="" />
+              <p className='frase-em-breve'>EM BREVE</p>
             </div>
           </div>
 
           <div className='container-cards'>
             <div className='card'>
-              <img src={x} alt="" />
+              <p className='frase-em-breve'>EM BREVE</p>
             </div>
             <div className='card'>
-              <img src={x} alt="" />
+              <p className='frase-em-breve'>EM BREVE</p>
             </div>
             <div className='card'>
-              <img src={x} alt="" />
+              <p className='frase-em-breve'>EM BREVE</p>
             </div>
           </div>
         </div>

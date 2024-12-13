@@ -28,3 +28,16 @@
   flex-direction: row;
   gap: 6vw;
 }
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 16vw;
+  background-color: #514f4f95;
+}
+
+.frase-em-breve {
+  color:#b281f7;
+}
