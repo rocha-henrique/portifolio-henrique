@@ -13,26 +13,26 @@ const Portifolio = () => {
       </div>
         <div className='container-projetos'>
           <div className='container-cards'>
-            <div className='card'>
-              <img src={x} alt="" />
+            <div>
+              <img className='card' src={x} alt="" />
             </div>
-            <div className='card'>
-              <img src={x} alt="" />
+            <div>
+              <img className='card' src={x} alt="" />
             </div>
-            <div className='card'>
-              <img src={x} alt="" />
+            <div>
+              <img className='card' src={x} alt="" />
             </div>
           </div>
 
           <div className='container-cards'>
-            <div className='card'>
-              <img src={x} alt="" />
+            <div>
+              <img className='card' src={x} alt="" />
             </div>
-            <div className='card'>
-              <img src={x} alt="" />
+            <div>
+              <img className='card' src={x} alt="" />
             </div>
-            <div className='card'>
-              <img src={x} alt="" />
+            <div>
+              <img className='card' src={x} alt="" />
             </div>
           </div>
         </div>
