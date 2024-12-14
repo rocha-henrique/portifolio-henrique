@@ -18,6 +18,22 @@
 }
 
 .img-perfil {
-  width: 20vw;
+  width: 25vw;
   border-radius: 30%;
+}
+
+.container-perfil {
+  display: flex;
+  gap: 7vw;
+}
+
+.container-texto-perfil {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.texto-perfil {
+  font-size: 0.9vw;
+  width: 40vw;
 }
