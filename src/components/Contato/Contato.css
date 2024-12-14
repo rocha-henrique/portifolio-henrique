@@ -1,0 +1,18 @@
+.container-contato {
+  display: flex;
+  flex-direction: column;
+  padding: 6vw 1vw 2vw 24.5vw;
+  gap: 4vw;
+  background-color: var(--color-primary); /* Fundo principal */
+  color: var(--color-secondary); /* Texto secundário */
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.171) 0.1vw, transparent 0);
+  background-size: 1.5vw 1.5vw;
+}
+ 
+.container-title-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}

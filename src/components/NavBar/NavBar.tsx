@@ -46,10 +46,10 @@ const NavBar = () => {
             <button className='button' ><a style={{color: 'white'}} href="#Portifolio">Portifólio</a></button>
           </span>
           <span className='container'>
-            <button className='button'><a style={{color: 'white'}} href="">Sobre</a></button>
+            <button className='button'><a style={{color: 'white'}} href="#Sobre">Sobre</a></button>
           </span>
           <span className='container'>
-            <button className='button'>Contato</button>
+            <button  className='button'><a style={{color: 'white'}} href="#Contato">Contato</a></button>
           </span>
         </div>
       </nav>
