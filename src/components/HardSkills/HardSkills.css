@@ -23,6 +23,8 @@
   font-size: 1.4vw;
   font-weight: 700;
   gap: 1vw;
+  text-transform: uppercase;
+  background-color: #000;
 }
 
 /* ProgressBar.css */
@@ -53,8 +55,3 @@
   font-weight: bold;
 }
 /* ProgressBar.css */
-
-.text-skills {
-  font-size: 1.4vw;
-  background-color: black;
-}

@@ -5,13 +5,13 @@ const Contato = () => {
       <div className='container-contato' id='Contato'>
         <div className='container-title-contato'>
           <h1 className="title-contato">Contato</h1>
-          <p>Entre em contato para discutir projetos ou colaborações. Preencha o formulário abaixo e eu retornarei o mais breve possível. Estou ansioso para conectar com você!</p>
+          <p className='text'>Entre em contato para discutir projetos ou colaborações. Preencha o formulário abaixo e eu retornarei o mais breve possível. Estou ansioso para conectar com você!</p>
         </div>
 
         <div className='container-form'>
           <div className='container-map'>
             <button className='map-button'>Telefone</button>
-
+            
             <div className='map'>
 
             </div>

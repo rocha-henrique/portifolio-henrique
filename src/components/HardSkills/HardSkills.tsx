@@ -63,9 +63,9 @@ const HardSkills = () => {
     <div ref={sectionRef} id="HardSkills" className="container-hard-skills">
       <div className="container-text-title">
         <h1 className="title-skills">Hard Skills</h1>
-        <h3 className="subtitle-skills">
+        <p className="text">
           Desenvolvedor full-stack com foco em front-end, especializado em React, HTML, CSS e JavaScript.
-        </h3>
+        </p>
       </div>
 
       <div className="container-skills">
@@ -118,7 +118,7 @@ const HardSkills = () => {
         </div>
       </div>
 
-      <p className="text-skills">
+      <p className="text">
           Olá! 👋 Sou um desenvolvedor Full Stack com foco em Front-end, formado pela Trybe, onde mergulhei em mais de
           1500 horas de aprendizado intensivo em desenvolvimento web. Minha jornada na tecnologia é marcada por uma
           paixão contínua por inovação e uma busca incessante por aprimoramento profissional. Estou entusiasmado para
