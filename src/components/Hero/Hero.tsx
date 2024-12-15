@@ -4,29 +4,29 @@ import './Hero.css';
 
 const Hero = () => {
   const frases = [
-      "Imagine as soluções perfeitas para resolver os seus problemas.",
-      "Acredite no poder de transformar ideias em realidade",
-      <>Sonhe alto com os projetos <br/> dos seus sonhos</>,
-      <span className="frase-eu-realizo">E EU IREI REALIZÁ-LOS</span>,
+      <>Todo grande projeto <br/> começa com uma pequena ideia...</>,  
+      "Ela cresce, ganha vida, e se transforma em uma porta mágica,",  
+      "Uma porta que conecta o mundo da imaginação ao da realidade.",  
+      <>Sonhe alto com os projetos <br/> que habitam em seus sonhos.</>,  
+      "Você sonha o impossível,",  
+      <span className="frase-eu-realizo">E juntos, transformamos o possível em realidade.</span>,
   ];
 
   const [fraseAtual, setFraseAtual] = useState(0);
   const [mostrarSeta, setMostrarSeta] = useState(false);
 
-  // Controla a troca das frases
   useEffect(() => {
     const intervalo = setInterval(() => {
       setFraseAtual((prev) => (prev + 1) % frases.length);
-    }, 5000); // Troca a cada 5 segundos
-    return () => clearInterval(intervalo); // Limpa o intervalo ao desmontar o componente
+    }, 6000);
+    return () => clearInterval(intervalo);
   }, [frases.length]);
 
-  // Exibe a seta após 20 segundos
   useEffect(() => {
     const timer = setTimeout(() => {
       setMostrarSeta(true);
-    }, 19000); // 19 segundos
-    return () => clearTimeout(timer); // Limpa o timer ao desmontar o componente
+    }, 33000);
+    return () => clearTimeout(timer);
   }, []);
 
   return (
