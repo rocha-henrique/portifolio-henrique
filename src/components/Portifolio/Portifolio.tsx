@@ -1,4 +1,5 @@
 import './Portifolio.css';
+import desenhosDaGi from '../../assets/Portifolio/desenhosDaGi.jpg'
 
 const Portifolio = () => {
   
@@ -13,7 +14,9 @@ const Portifolio = () => {
         <div className='container-projetos'>
           <div className='container-cards'>
             <div className='card'>
-              <p className='frase-em-breve'>EM BREVE</p>
+              <a href="https://rocha-henrique.github.io/desenhosDaGi/" target="_blank">
+                <img className='card' src={desenhosDaGi} alt="" />
+              </a>
             </div>
             <div className='card'>
               <p className='frase-em-breve'>EM BREVE</p>

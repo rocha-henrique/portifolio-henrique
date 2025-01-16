@@ -45,7 +45,7 @@
 
 .form {
   width: 100%;
-  max-width: 500px;
+  max-width: 35vw;
   margin: 20px auto;
   padding: 20px;
   border: 1px solid #ddd;
@@ -63,6 +63,7 @@
   border: 1px solid #ccc;
   border-radius: 3px;
   font-size: 14px;
+  color: black;
 }
 
 .form label {
@@ -85,5 +86,5 @@
 }
 
 .form button:hover {
-  background-color: #007bb5;
+  background-color: #3B5998;
 }

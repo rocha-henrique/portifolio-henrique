@@ -41,7 +41,7 @@
 
 .progress-bar {
   height: 100%;
-  background-color: #b281f7;
+  background-color: #3B5998;
   transition: width 0.1s ease-in-out;
 }
 
@@ -51,7 +51,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
-  color: #000;
+  color: #DEDEDE;
   font-weight: bold;
 }
 /* ProgressBar.css */

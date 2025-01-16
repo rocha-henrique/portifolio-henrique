@@ -3,35 +3,36 @@
   flex-direction: column;
   align-items: center;
   padding: 2vw;
-  background: linear-gradient(180deg, #0E0E0E 29%, #3B5998 100%);
+  background: linear-gradient(180deg, #0e0e0e 29%, #3B5998 100%);
   width: 23%;
   height: 100%;
   position: fixed;
   gap: 2vw;
   transition: top 1s ease, opacity 1s ease;
-  opacity: 0; /* Invisível até ficar flutuante */
+  opacity: 0;
 }
 
 .navbar-esquerda.show-navbar {
-  top: 0; /* Volta para o topo quando visível */
+  top: 0;
   opacity: 1;
 }
 
 .navbar-esquerda.hide-navbar {
-  top: 100%; /* Esconde novamente */
+  top: 100%;
   opacity: 0;
 }
 
 .navbar-esquerda.floating {
-  position: fixed; /* Torna fixa ao atingir a segunda dobra */
+  position: fixed;
   top: 0;
-  opacity: 1; /* Visível ao flutuar */
+  opacity: 1;
 }
 
 .perfil {
   border-radius: 100%;
   background-color: #084969;
-  border: solid #b281f7 2px;
+  border: solid #a5a5a5 0.1px;
+
   width: 10vw;
 }
 
@@ -56,7 +57,8 @@
   display: flex;
   border-radius: 100%;
   padding: 1vw;
-  border: solid #b281f7 2px;
+  border: solid #a5a5a5 0.1px;
+
   background-color: #1E1B2E;
 }
 
@@ -79,7 +81,7 @@ button {
   background-color: #1E1B2E;
   color: #fff;
   cursor: pointer;
-  border: solid #b281f7 1px;
+  border: solid #a5a5a5 0.1px;
   box-shadow: 2px 2px 3px #1E1B2E;
 
 }
@@ -104,7 +106,7 @@ button {
 }
 
 .container:hover::before {
-  background: #b281f7;
+  background: #3B5998;
   filter: blur(1.2em);
 }
 .container:active::before {

@@ -39,6 +39,12 @@
   background-color: #514f4f95;
 }
 
+.card:hover {
+  zoom: 99%;
+  border: solid #a5a2a8 1px;
+
+}
+
 .frase-em-breve {
-  color:#b281f7;
+  color:#3B5998;
 }
