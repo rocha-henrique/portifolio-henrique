@@ -3,8 +3,8 @@
   flex-direction: column;
   padding: 6vw 1vw 0vw 24.5vw;
   gap: 4vw;
-  background-color: var(--color-primary); /* Fundo principal */
-  color: var(--color-secondary); /* Texto secundário */
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
   width: 100%;
   height: 100%;
   background-image: radial-gradient(rgba(255, 255, 255, 0.171) 0.1vw, transparent 0);
@@ -29,6 +29,7 @@
   gap: 6vw;
 }
 
+/*
 .card {
   display: flex;
   justify-content: center;
@@ -38,13 +39,25 @@
   border-radius: 10%;
   background-color: #514f4f95;
 }
+*/
 
-.card:hover {
-  zoom: 99%;
-  border: solid #a5a2a8 1px;
-
+.card {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  width: 100%;
+  cursor: pointer;
 }
 
-.frase-em-breve {
-  color:#3B5998;
+.scrolling-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  transition: transform 4s linear;
+}
+
+.scrolling-image.scroll {
+  transform: translateY(-100%);
 }
