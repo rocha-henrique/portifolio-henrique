@@ -1,18 +1,12 @@
-import React, { useState } from "react";
 import "./Portifolio.css";
+import ImageCard from "./ImageCard";
+
 import desenhosDaGi from "../../assets/Portifolio/desenhosDaGi.jpg";
+import palestraDoGab from "../../assets/Portifolio/palestraDoGab.jpg"
+import as48LeisDaOratoria from "../../assets/Portifolio/as48LeisDaOratoria.jpg"
+import rafaelUltramar from "../../assets/Portifolio/rafaelUltramar.jpg"
 
 const Portifolio = () => {
-  const [hovering, setHovering] = useState(false);
-
-  const handleMouseEnter = () => {
-    setHovering(true);
-  };
-
-  const handleMouseLeave = () => {
-    setHovering(false);
-  };
-
   return (
     <div id="Portifolio" className="container-portifolio">
       <div className="container-title-portifolio">
@@ -26,37 +20,32 @@ const Portifolio = () => {
       </div>
       <div className="container-projetos">
         <div className="container-cards">
-          <div
-            className="card"
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-          >
-            <a href="https://rocha-henrique.github.io/desenhosDaGi/" target="_blank" rel="noreferrer">
-              <img
-                className={`scrolling-image ${hovering ? "scroll" : ""}`}
-                src={desenhosDaGi}
-                alt="Desenhos da Gi"
-              />
-            </a>
-          </div>
-          <div className="card">
-            <p className="frase-em-breve">EM BREVE</p>
-          </div>
-          <div className="card">
-            <p className="frase-em-breve">EM BREVE</p>
-          </div>
+          {/* Adicione imagens reutilizando o componente */}
+          <ImageCard
+            imageSrc={palestraDoGab}
+            link="https://resenhagroup.com.br/palestra-do-gab/"
+            altText="Palestra do Gab"
+          />
+          <ImageCard
+            imageSrc={as48LeisDaOratoria}
+            link="https://elprofessordaoratoria.com.br/as-48-leis-da-oratoria"
+            altText="As 48 Leis da Oratoria"
+          />
+          <ImageCard
+            imageSrc={rafaelUltramar}
+            link="https://rafaelultramar.com.br/dr-rafael-ultramar-lp/"
+            altText="Rafael Ultramar"
+          />
         </div>
 
         <div className="container-cards">
-          <div className="card">
-            <p className="frase-em-breve">EM BREVE</p>
-          </div>
-          <div className="card">
-            <p className="frase-em-breve">EM BREVE</p>
-          </div>
-          <div className="card">
-            <p className="frase-em-breve">EM BREVE</p>
-          </div>
+          <ImageCard
+            imageSrc={desenhosDaGi}
+            link="https://rocha-henrique.github.io/desenhosDaGi/"
+            altText="Desenhos da Gi"
+          />
+          <ImageCard placeholderText="EM BREVE" />
+          <ImageCard placeholderText="EM BREVE" />
         </div>
       </div>
     </div>

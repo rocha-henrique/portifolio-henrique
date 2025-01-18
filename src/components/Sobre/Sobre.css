@@ -1,7 +1,7 @@
 .container-sobre {
   display: flex;
   flex-direction: column;
-  padding: 6vw 1vw 2vw 24.5vw;
+  padding: 6vw 1vw 0vw 24.5vw;
   gap: 4vw;
   background-color: var(--color-primary); /* Fundo principal */
   color: var(--color-secondary); /* Texto secundário */
@@ -18,8 +18,9 @@
 }
 
 .img-perfil {
+  height: 30vw;
   width: 25vw;
-  border-radius: 30%;
+  border-radius: 10%;
 }
 
 .container-perfil {
@@ -34,6 +35,6 @@
 }
 
 .texto-perfil {
-  font-size: 0.9vw;
+  font-size: 1vw;
   width: 40vw;
 }

@@ -10,6 +10,11 @@
   gap: 2vw;
   transition: top 1s ease, opacity 1s ease;
   opacity: 0;
+  
+}
+
+section {
+  scroll-margin-top: 80px; /* Ajuste para corresponder à altura da navbar fixa */
 }
 
 .navbar-esquerda.show-navbar {
@@ -90,7 +95,7 @@ button {
   display: flex;
   justify-content: space-around;
   position: relative;
-  background: #b281f7;
+  background: #3B5998;
   border-radius: 0.9em;
   transition: all 0.4s ease;
 }

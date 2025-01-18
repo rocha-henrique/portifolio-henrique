@@ -1,7 +1,7 @@
 .container-portifolio {
   display: flex;
   flex-direction: column;
-  padding: 6vw 1vw 0vw 24.5vw;
+  padding: 2vw 1vw 3.8vw 24.5vw;
   gap: 4vw;
   background-color: var(--color-primary);
   color: var(--color-secondary);
@@ -29,35 +29,41 @@
   gap: 6vw;
 }
 
-/*
-.card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20vw;
-  height: 16vw;
-  border-radius: 10%;
-  background-color: #514f4f95;
-}
-*/
-
 .card {
   position: relative;
   overflow: hidden;
-  height: 300px;
-  width: 100%;
+  height: 20vw;
+  width: 20vw;
   cursor: pointer;
+  border-radius: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .scrolling-image {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
   height: auto;
+  width: 100%;
+  max-height: none; 
+  object-fit: cover;
   transition: transform 4s linear;
 }
 
 .scrolling-image.scroll {
   transform: translateY(-100%);
+}
+
+
+.placeholder-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a7a7a752;
+  height: 100%;
+  width: 100%;
 }
