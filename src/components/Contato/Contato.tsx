@@ -10,8 +10,7 @@ const Contato = () => {
 
         <div className='container-form'>
           <div className='container-map'>
-            <button className='map-button'>Telefone</button>
-      
+            <a target='blank_' href="https://wa.me/5511987576861?text=Ol%C3%A1!%20Tenho%20interesse%20nos%20seus%20servi%C3%A7os%20de%20cria%C3%A7%C3%A3o%20de%20sites.%20Gostaria%20de%20saber%20mais%20sobre%20como%20funciona%20e%20os%20valores."><button className='map-button'>Telefone</button></a>
             <div className='map'>
 
             </div>

@@ -12,7 +12,7 @@ const Portifolio = () => {
       <div className="container-title-portifolio">
         <h1 className="title-portifolio">Portifolio</h1>
         <p className="text">
-          Portfólio full-stack com foco em front-end e especialização em React.
+          Portifólio full-stack com foco em front-end e especialização em React.
           Apresentei soluções criativas e eficientes para interfaces de
           usuário, integração com APIs e desenvolvimento ágil. Explore projetos
           que mostram habilidades em UI/UX e inovação tecnológica.

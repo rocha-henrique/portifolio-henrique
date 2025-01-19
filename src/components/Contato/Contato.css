@@ -1,7 +1,7 @@
 .container-contato {
   display: flex;
   flex-direction: column;
-  padding: 6vw 1vw 2vw 24.5vw;
+  padding: 3vw 1vw 6vw 24.5vw;
   gap: 4vw;
   background-color: var(--color-primary); /* Fundo principal */
   color: var(--color-secondary); /* Texto secundário */
