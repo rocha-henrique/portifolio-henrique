@@ -20,8 +20,22 @@ const Sobre = () => {
       <div className='container-perfil'>
         <img className='img-perfil' src={henrique} alt="" />
         <div className='container-texto-perfil'>
-          <p className='texto-perfil text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-          <p className='texto-perfil text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <h1>Henrique Rocha</h1>
+          <p className='texto-perfil text'>
+            💻 Desenvolvedor Front-End com experiência em JavaScript, TypeScript, React e WordPress. 
+          </p>
+
+          <p className='texto-perfil text'>
+            🚀 Criei landing pages personalizadas para clientes na agência Nova Dimensão Digital, além de projetos próprios, como sites e blogs interativos.
+          </p>
+
+          <p className='texto-perfil text'>
+            🎯 Focado em soluções eficientes e responsivas, combinando design moderno e alta performance.
+          </p>
+
+          <p className='texto-perfil text'>
+            🔍 Busco desafios que me permitam aplicar minha criatividade e habilidades técnicas para gerar impacto.
+          </p>
         </div>
       </div>
     </div>

@@ -8,7 +8,6 @@ interface ImageCardProps {
     placeholderText?: string;
   }
  
-
 const ImageCard: React.FC<ImageCardProps> = ({
     imageSrc,
     link,

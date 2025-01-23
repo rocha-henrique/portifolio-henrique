@@ -37,7 +37,7 @@ const Hero = () => {
       </div>
       {mostrarSeta && (
         <div className="container-seta">
-          <span className="seta">↓</span>
+         <a href="#Portifolio"> <span className="seta">↓</span></a>
         </div>
       )}
     </div>

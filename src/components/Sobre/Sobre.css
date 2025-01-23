@@ -1,11 +1,11 @@
 .container-sobre {
   display: flex;
   flex-direction: column;
-  padding: 0vw 1vw 4vw 24.5vw;
-  gap: 4vw;
-  background-color: var(--color-primary); /* Fundo principal */
-  color: var(--color-secondary); /* Texto secundário */
-  background-image: radial-gradient(rgba(255, 255, 255, 0.171) 0.1vw, transparent 0);
+  padding: 0vw 1vw 3vw 24.5vw;
+  gap: 3vw;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  background-image: radial-gradient(rgba(255, 255, 255, 0.11) 0.1vw, transparent 0);
   background-size: 1.5vw 1.5vw;
 }
 
@@ -33,6 +33,6 @@
 }
 
 .texto-perfil {
-  font-size: 1vw;
+  font-size: 1.vw;
   width: 40vw;
 }

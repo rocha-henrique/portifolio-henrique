@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding: 1vw;
-  background: linear-gradient(180deg, #0e0e0e 29%, #3B5998 100%);
+  background: linear-gradient(180deg, #0e0e0ef3 29%, #3B5998 100%);
   width: 23%;
   height: 100%;
   position: fixed;
@@ -61,7 +61,7 @@ section {
   border-radius: 100%;
   padding: 0.7vw;
   border: solid #a5a5a5 0.1px;
-  background-color: #1E1B2E;
+  background-color: #0e0e0ef3;
 }
 
 .img-redes {
@@ -80,11 +80,11 @@ button {
   border-radius: 0.5em;
   width: 100%;
   border: none;
-  background-color: #1E1B2E;
+  background-color: #0e0e0ef3;
   color: #fff;
   cursor: pointer;
   border: solid #a5a5a5 0.1px;
-  box-shadow: 2px 2px 3px #1E1B2E;
+  box-shadow: 2px 2px 3px #0e0e0ef3;
 
 }
 

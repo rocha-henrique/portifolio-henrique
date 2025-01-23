@@ -7,7 +7,7 @@
   color: var(--color-secondary);
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.171) 0.1vw, transparent 0);
+  background-image: radial-gradient(rgba(255, 255, 255, 0.11) 0.1vw, transparent 0);
   background-size: 1.5vw 1.5vw;
 }
 
@@ -66,4 +66,11 @@
   background-color: #a7a7a752;
   height: 100%;
   width: 100%;
+}
+
+.title-sites {
+  text-align: center;
+  font-size: 1.2vw;
+  margin-bottom: 1vw;
+  text-transform: uppercase;
 }
