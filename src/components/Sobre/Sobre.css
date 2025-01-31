@@ -36,3 +36,8 @@
   font-size: 1.vw;
   width: 40vw;
 }
+
+.carrosel {
+  display: flex;
+  width: 20vw;
+}
