@@ -1,8 +1,8 @@
 .container-sobre {
   display: flex;
   flex-direction: column;
-  padding: 0vw 1vw 3vw 24.5vw;
-  gap: 3vw;
+  padding: 3vw 1vw 3.2vw 24.5vw;
+  gap: 4vw;
   background-color: var(--color-primary);
   color: var(--color-secondary);
   background-image: radial-gradient(rgba(255, 255, 255, 0.11) 0.1vw, transparent 0);
@@ -37,8 +37,6 @@
   width: 40vw;
 }
 
-
-
 .carousel-container {
   width: 100%;
   overflow: hidden;
@@ -59,7 +57,7 @@
 }
 
 .img-carousel {
-  width: 80px;
+  width: 5vw;
   height: auto;
   filter: grayscale(100%);
   transition: filter 0.3s ease-in-out;

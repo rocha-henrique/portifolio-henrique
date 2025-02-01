@@ -32,7 +32,6 @@ const stacks = [
   ubuntuLogo,
 ];
 
-// Clona o array 1000 vezes para criar um carrossel infinito
 const clonesCount = 1000;
 const clonedStacks = Array.from({ length: clonesCount }, () => stacks).flat();
 
@@ -41,13 +40,12 @@ const StacksCarousel = () => {
   const trackRef = useRef<HTMLDivElement>(null);
   const animationRef = useRef<any>(null);
 
-  // Função para iniciar a animação em câmera lenta
   const startAnimation = () => {
     if (!trackRef.current) return;
     const totalWidth = trackRef.current.scrollWidth;
 
     animationRef.current = animate(x, -totalWidth, {
-      duration: 15000, // Duração da animação aumentada para ser mais lenta
+      duration: 15000,
       ease: "linear",
       repeat: Infinity,
     });
@@ -60,12 +58,10 @@ const StacksCarousel = () => {
     };
   }, []);
 
-  // Pausa a animação quando o mouse entra na área do carrossel
   const handleMouseEnter = () => {
     animationRef.current?.stop();
   };
 
-  // Retoma a animação quando o mouse sai da área do carrossel
   const handleMouseLeave = () => {
     startAnimation();
   };
