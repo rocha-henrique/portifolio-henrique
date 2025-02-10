@@ -1,16 +1,16 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: "/portifolio-henrique/", // Nome do seu repositório
+  base: "/portifolio-henrique/",  // Certifique-se que esse é o nome do repositório
   plugins: [react()],
   build: {
     outDir: "dist",
     assetsDir: "assets",
     rollupOptions: {
       output: {
-        format: 'esm', // Garantir que os arquivos sejam compatíveis com módulos ES
+        manualChunks: undefined,  // Para evitar problemas de chunking
+        format: 'esm', // Força a saída como módulos ES
       },
     },
   },
