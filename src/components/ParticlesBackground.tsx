@@ -30,11 +30,11 @@ const ParticlesBackground = () => {
           cover: {
             opacity: 1,
             color: {
-              value: ""
+              value: "#ffffff" // Cor branca
             }
           },
           enable: false
-        },
+        },        
         clear: true,
         defaultThemes: {},
         delay: 0,
