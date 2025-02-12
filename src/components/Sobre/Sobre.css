@@ -1,7 +1,7 @@
 .container-sobre {
   display: flex;
   flex-direction: column;
-  padding: 3vw 1vw 3.2vw 24.5vw;
+  padding: 2vw 1vw 2vw 24.5vw;
   gap: 4vw;
   background-color: var(--color-primary);
   color: var(--color-secondary);

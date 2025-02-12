@@ -42,7 +42,7 @@ section {
 .button-github {
   display: flex;
   padding: 0;
-  border: 0;
+  border: solid black;
   border-radius: 0.6vw;
   background-color: white;
 }
@@ -85,7 +85,6 @@ button {
   cursor: pointer;
   border: solid #a5a5a5 0.1px;
   box-shadow: 2px 2px 3px #0e0e0ef3;
-
 }
 
 .container {
