@@ -7,6 +7,7 @@ import as48LeisDaOratoria from "../../assets/Portifolio/as48LeisDaOratoria.jpg"
 import rafaelUltramar from "../../assets/Portifolio/rafaelUltramar.jpg"
 import logoGame from "../../assets/Portifolio/LogoGame.png"
 import draMaira from "../../assets/Portifolio/draMaira.jpg"
+import deliaDay from "../../assets/Portifolio/deliaDay.png"
 
 const Portifolio = () => {
   return (
@@ -60,6 +61,14 @@ const Portifolio = () => {
             />
           </label>
 
+          <label htmlFor=""> <p className="title-sites">Landing Page</p>
+            <ImageCard
+              imageSrc={deliaDay}
+              link="https://deliaday.com.br/"
+              altText="Desenhos da Gi"
+            />
+          </label>
+
           <label htmlFor=""> <p className="title-sites">site</p>
             <ImageCard
               imageSrc={desenhosDaGi}
@@ -67,12 +76,19 @@ const Portifolio = () => {
               altText="Desenhos da Gi"
             />
           </label>
-          
+        </div>
+
+        <div className="container-cards">  
+
+        <p className="em-breve">EM BREVE</p>
+
           <label htmlFor=""> <p className="title-sites">Jogo Mobile</p>
             <a href="https://jackpoot.itch.io/helix-jack-game" target="blank_">
               <img className="card" src={logoGame} alt="Imagem do jogo mobile" />
             </a>
           </label>
+
+          <p className="em-breve">EM BREVE</p>
         </div>
       </div>
     </div>
