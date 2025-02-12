@@ -1,7 +1,7 @@
 import "./Portifolio.css";
 import ImageCard from "./ImageCard";
 
-import desenhosDaGi from "../../assets/Portifolio/desenhosDaGi.jpg";
+// import desenhosDaGi from "../../assets/Portifolio/desenhosDaGi.jpg";
 import palestraDoGab from "../../assets/Portifolio/palestraDoGab.jpg"
 import as48LeisDaOratoria from "../../assets/Portifolio/as48LeisDaOratoria.jpg"
 import rafaelUltramar from "../../assets/Portifolio/rafaelUltramar.jpg"
@@ -69,26 +69,11 @@ const Portifolio = () => {
             />
           </label>
 
-          <label htmlFor=""> <p className="title-sites">site</p>
-            <ImageCard
-              imageSrc={desenhosDaGi}
-              link="https://rocha-henrique.github.io/desenhosDaGi/"
-              altText="Desenhos da Gi"
-            />
-          </label>
-        </div>
-
-        <div className="container-cards">  
-
-        <p className="em-breve">EM BREVE</p>
-
           <label htmlFor=""> <p className="title-sites">Jogo Mobile</p>
             <a href="https://jackpoot.itch.io/helix-jack-game" target="blank_">
               <img className="card" src={logoGame} alt="Imagem do jogo mobile" />
             </a>
           </label>
-
-          <p className="em-breve">EM BREVE</p>
         </div>
       </div>
     </div>
