@@ -9,10 +9,8 @@
   background-size: 1.5vw 1.5vw;
 }
 
-.container-title-sobre {
-  display: flex;
-  flex-direction: column;
-  gap: 2vw;
+.title-name {
+  font-size: 3vw;
 }
 
 .img-perfil {

@@ -11,9 +11,10 @@ const Sobre = () => {
       </div>
 
       <div className='container-perfil'>
+        
         <img className='img-perfil' src={henrique} alt="" />
         <div className='container-texto-perfil'>
-          <h1>Henrique Rocha</h1>
+          <h1 className='title-name'>Henrique Rocha</h1>
           <p className='texto-perfil text'>
             💻 Desenvolvedor Front-End com experiência em JavaScript, TypeScript, React e WordPress. 
           </p>
