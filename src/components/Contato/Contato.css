@@ -20,7 +20,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 5vw;
+  padding-left: 4vw;
+  gap: 2vw;
 }
 
 .container-map {
@@ -32,11 +33,11 @@
   border: 0.1vw solid #ddd;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  gap: 2vw;
+  gap: 1vw;
 }
 
 .map {
-  height: 20vw;
+  height: 21vw;
 }
 
 .map-button {
@@ -80,11 +81,13 @@
   justify-content: center;
   width: 12vw;
   margin: 0.6vw auto 0;
+  margin-top: 1.7vw;
   background-color: #0e0e0ef3;
   border: solid #dedede 0.1vw;
   color: white;
   font-size: 0.8vw;
   cursor: pointer;
+  gap: 1vw;
 }
 
 .form button:hover {
