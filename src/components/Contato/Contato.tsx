@@ -44,7 +44,7 @@ const Contato = () => {
   return (
     <div className='container-contato' id="Contato">
       <div className='container-title-contato'>
-        <h1 className="title-contato">Contato</h1>
+        <h1 className="title-contato">CONTATO</h1>
         <p className='text'>
           Entre em contato para discutir projetos ou colaborações. Preencha o formulário abaixo ou me envie uma mensagem no WhatsApp, eu retornarei o mais breve possível.
         </p>

@@ -1,0 +1,69 @@
+@media only screen and (max-width: 600px) {
+    .container-hero {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 2vw 0 2vw;
+    }
+      
+    .frase-eu-realizo {
+        font-size: 8.5vw;
+    }
+  
+    .frase-hero {
+        text-transform: uppercase;
+        font-size: 4vw;
+        font-weight: 600;
+        width: 90vw;
+        color: #fff;
+        text-align: center;
+        animation: fade 5s ease-in-out;
+    }
+  
+    .particles-canvas {
+        overflow: hidden;
+        position: absolute;
+        zoom: 40%;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+    }
+  
+    .container-seta {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: fadeIn 1s ease-in;
+    }
+  
+    .seta {
+        font-size: 10vw;
+        color: white;
+        cursor: pointer;
+        animation: bounce 1.5s infinite ease-in-out;
+    }  
+
+  
+    @keyframes fadeIn {
+        from {
+        opacity: 0;
+        }
+        to {
+        opacity: 1;
+        }
+    }
+
+    @keyframes bounce {
+        0%, 100% {
+        transform: translateY(0);
+        }
+        50% {
+        transform: translateY( 1vw); /* Define o quanto a seta sobe */
+        }
+    }
+
+}

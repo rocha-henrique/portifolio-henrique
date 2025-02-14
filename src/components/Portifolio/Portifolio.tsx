@@ -1,5 +1,6 @@
-import "./Portifolio.css";
 import ImageCard from "./ImageCard";
+import "./PortifolioMobile.css";
+import "./Portifolio.css";
 
 // import desenhosDaGi from "../../assets/Portifolio/desenhosDaGi.jpg";
 import palestraDoGab from "../../assets/Portifolio/palestraDoGab.jpg"
@@ -13,7 +14,7 @@ const Portifolio = () => {
   return (
     <div id="Portifolio" className="container-portifolio">
       <div className="container-title-portifolio">
-        <h1 className="title-portifolio">Portifolio</h1>
+        <h1 className="title-portifolio">PROJETOS</h1>
         <p className="text">
           Portifólio full-stack com foco em front-end e especialização em React.
           Apresentei soluções criativas e eficientes para interfaces de

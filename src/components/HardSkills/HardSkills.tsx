@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import NavBar from '../NavBar/NavBar';
+import './HardSkillsMobile.css';
 import './HardSkills.css';
 
 // Componente para exibir a barra de progresso para cada habilidade
@@ -62,7 +63,7 @@ const HardSkills = () => {
       <NavBar />
     <div ref={sectionRef} id="HardSkills" className="container-hard-skills">
       <div className="container-text-title">
-        <h1 className="title-skills">Hard Skills</h1>
+        <h1 className="title-skills">HARD SKILLS</h1>
         <p className="text">
           Desenvolvedor full-stack com foco em front-end, especializado em React, HTML, CSS e JavaScript.
         </p>

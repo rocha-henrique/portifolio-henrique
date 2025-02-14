@@ -55,18 +55,6 @@
   transform: translateY(-100%);
 }
 
-
-.placeholder-text {
-  font-size: 1.5rem;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #a7a7a752;
-  height: 100%;
-  width: 100%;
-}
-
 .title-sites {
   text-align: center;
   font-size: 1.2vw;

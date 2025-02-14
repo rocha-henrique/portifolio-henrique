@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import ParticlesBackground from "../ParticlesBackground";
 import './Hero.css';
+import './HeroMobile.css';
 
 const Hero = () => {
   const frases = [
@@ -9,7 +10,7 @@ const Hero = () => {
       "Uma porta que conecta o mundo da imaginação ao da realidade.",  
       <>Sonhe alto com os projetos <br/> que habitam em seus sonhos.</>,  
       "Você sonha o impossível,",  
-      <span className="frase-eu-realizo">E juntos, transformamos o possível em realidade.</span>,
+      <span className="frase-eu-realizo">E juntos, o transformamos em realidade.</span>,
   ];
 
   const [fraseAtual, setFraseAtual] = useState(0);

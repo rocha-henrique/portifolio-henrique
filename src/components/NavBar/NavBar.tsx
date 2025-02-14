@@ -4,6 +4,7 @@ import linkedin from '../../assets/Hero/linkedin.png';
 import GitHub from '../../assets/Hero/gitHub.png';
 import gmail from '../../assets/Hero/gmail.png';
 import LottiePerfil from '../lotties/LottiePerfil';
+import './NavBarMobile.css';
 import './NavBar.css';
 
 const NavBar = () => {
@@ -81,7 +82,7 @@ const NavBar = () => {
               className="button"
               onClick={() => handleScrollToSection('Portifolio')}
             >
-              Portifólio
+              PROJETOS
             </button>
           </span>
           <span className="container">
@@ -89,7 +90,7 @@ const NavBar = () => {
               className="button"
               onClick={() => handleScrollToSection('HardSkills')}
             >
-              Skills
+              SKILLS
             </button>
           </span>
           <span className="container">
@@ -97,7 +98,7 @@ const NavBar = () => {
               className="button"
               onClick={() => handleScrollToSection('Sobre')}
             >
-              Sobre
+              SOBRE
             </button>
           </span>
           <span className="container">
@@ -105,7 +106,7 @@ const NavBar = () => {
               className="button"
               onClick={() => handleScrollToSection('Contato')}
             >
-              Contato
+              CONTATO
             </button>
           </span>
         </div>
