@@ -45,7 +45,7 @@ const ParticlesBackground = () => {
         },
         detectRetina: false, // Desabilitado para melhorar a performance em mobile
         duration: 0,
-        fpsLimit: isMobile ? 30 : 120,
+        fpsLimit: isMobile ? 60 : 120,
         interactivity: {
           detectsOn: "window",
           events: {

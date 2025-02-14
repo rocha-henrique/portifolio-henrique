@@ -1,6 +1,7 @@
 @media only screen and (max-width: 600px) {
-    .navbar-esquerda {
-      display: none;
-    }
+  .navbar-esquerda {
+    display: none;
+    width: 0px;
   }
+}
   

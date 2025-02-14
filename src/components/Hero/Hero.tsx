@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import ParticlesBackground from "../ParticlesBackground";
-import './Hero.css';
 import './HeroMobile.css';
+import './Hero.css';
 
 const Hero = () => {
   const frases = [

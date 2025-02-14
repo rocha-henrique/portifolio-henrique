@@ -1,154 +1,156 @@
-.navbar-esquerda {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1vw;
-  background: linear-gradient(180deg, #0e0e0ef3 29%, #3B5998 100%);
-  width: 23%;
-  height: 100%;
-  position: fixed;
-  gap: 2vw;
-  transition: top 1s ease, opacity 1s ease;
-  opacity: 0;
-}
-
-section {
-  scroll-margin-top: 100px;
-}
-
-.navbar-esquerda.show-navbar {
-  top: 0;
-  opacity: 1;
-}
-
-.navbar-esquerda.hide-navbar {
-  top: 100%;
-  opacity: 0;
-}
-
-.navbar-esquerda.floating {
-  position: fixed;
-  top: 0;
-  opacity: 1;
-}
-
-.perfil {
-  border-radius: 100%;
-  background-color: #084969;
-  border: solid #a5a5a5 0.1px;
-  width: 10vw;
-}
-
-.button-github {
-  display: flex;
-  padding: 0;
-  border: solid black;
-  border-radius: 0.6vw;
-  background-color: white;
-}
-
-.img-github {
-  width: 10vw;
-}
-
-.container-redes-sociais {
-  display: flex;
-  gap: 2vw;
-}
-
-.button-redes {
-  display: flex;
-  border-radius: 100%;
-  padding: 0.7vw;
-  border: solid #a5a5a5 0.1px;
-  background-color: #0e0e0ef3;
-}
-
-.img-redes {
-  width: 2vw;
-}
-
-.container-links {
-  display: flex;
-  flex-direction: column;
-  gap: 2vw;
-}
-
-
-button {
-  font-size: 1.5vw;
-  border-radius: 0.5em;
-  width: 100%;
-  border: none;
-  background-color: #0e0e0ef3;
-  color: #fff;
-  cursor: pointer;
-  border: solid #a5a5a5 0.1px;
-  box-shadow: 2px 2px 3px #0e0e0ef3;
-}
-
-.container {
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-  background: #3B5998;
-  border-radius: 0.9em;
-  transition: all 0.4s ease;
-}
-
-.container::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 0.9em;
-  z-index: -10;
-  filter: blur(0);
-  transition: filter 0.4s ease;
-}
-
-.container:hover::before {
-  background: #3B5998;
-  filter: blur(1.2em);
-}
-.container:active::before {
-  filter: blur(0.2em);
-}
-
-
-.navbar-esquerda {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1vw;
-  background: linear-gradient(180deg, #0e0e0ef3 29%, #3B5998 100%);
-  width: 23%;
-  height: 100%;
-  position: fixed;
-  gap: 2vw;
-  transition: top 1s ease, opacity 1s ease;
-  opacity: 0;
-}
-
-.navbar-esquerda.show-navbar {
-  top: 0;
-  opacity: 1;
-}
-
-.navbar-esquerda.hide-navbar {
-  top: 100%;
-  opacity: 0;
-}
-
-/* Botão do menu hambúrguer (mobile) */
-.hamburger-menu {
-  display: none;
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  background: transparent;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
-  z-index: 1000;
-  color: white;
+@media only screen and (min-width: 601px) {
+  .navbar-esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    background: linear-gradient(180deg, #0e0e0ef3 29%, #3B5998 100%);
+    width: 23%;
+    height: 100%;
+    position: fixed;
+    gap: 2vw;
+    transition: top 1s ease, opacity 1s ease;
+    opacity: 0;
+  }
+  
+  section {
+    scroll-margin-top: 100px;
+  }
+  
+  .navbar-esquerda.show-navbar {
+    top: 0;
+    opacity: 1;
+  }
+  
+  .navbar-esquerda.hide-navbar {
+    top: 100%;
+    opacity: 0;
+  }
+  
+  .navbar-esquerda.floating {
+    position: fixed;
+    top: 0;
+    opacity: 1;
+  }
+  
+  .perfil {
+    border-radius: 100%;
+    background-color: #084969;
+    border: solid #a5a5a5 0.1px;
+    width: 10vw;
+  }
+  
+  .button-github {
+    display: flex;
+    padding: 0;
+    border: solid black;
+    border-radius: 0.6vw;
+    background-color: white;
+  }
+  
+  .img-github {
+    width: 10vw;
+  }
+  
+  .container-redes-sociais {
+    display: flex;
+    gap: 2vw;
+  }
+  
+  .button-redes {
+    display: flex;
+    border-radius: 100%;
+    padding: 0.7vw;
+    border: solid #a5a5a5 0.1px;
+    background-color: #0e0e0ef3;
+  }
+  
+  .img-redes {
+    width: 2vw;
+  }
+  
+  .container-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+  }
+  
+  
+  button {
+    font-size: 1.5vw;
+    border-radius: 0.5em;
+    width: 100%;
+    border: none;
+    background-color: #0e0e0ef3;
+    color: #fff;
+    cursor: pointer;
+    border: solid #a5a5a5 0.1px;
+    box-shadow: 2px 2px 3px #0e0e0ef3;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background: #3B5998;
+    border-radius: 0.9em;
+    transition: all 0.4s ease;
+  }
+  
+  .container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 0.9em;
+    z-index: -10;
+    filter: blur(0);
+    transition: filter 0.4s ease;
+  }
+  
+  .container:hover::before {
+    background: #3B5998;
+    filter: blur(1.2em);
+  }
+  .container:active::before {
+    filter: blur(0.2em);
+  }
+  
+  
+  .navbar-esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    background: linear-gradient(180deg, #0e0e0ef3 29%, #3B5998 100%);
+    width: 23%;
+    height: 100%;
+    position: fixed;
+    gap: 2vw;
+    transition: top 1s ease, opacity 1s ease;
+    opacity: 0;
+  }
+  
+  .navbar-esquerda.show-navbar {
+    top: 0;
+    opacity: 1;
+  }
+  
+  .navbar-esquerda.hide-navbar {
+    top: 100%;
+    opacity: 0;
+  }
+  
+  /* Botão do menu hambúrguer (mobile) */
+  .hamburger-menu {
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1000;
+    color: white;
+  }
 }
