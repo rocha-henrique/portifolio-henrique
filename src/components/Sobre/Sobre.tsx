@@ -34,7 +34,7 @@ const Sobre = () => {
           <p className='texto-perfil text'>
             🔍 Busco desafios que me permitam aplicar minha criatividade e habilidades técnicas para gerar impacto.
           </p>
-          </div>
+        </div>
         </div>
       </div>
     </div>

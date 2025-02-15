@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px) {
     .container-sobre {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         padding: 0px 0px 20px 0px;
         color: var(--color-secondary);
         background-color: var(--color-primary);
@@ -15,10 +15,11 @@
         align-items: center;
         flex-direction: column;
         padding: 0px 15px 0px 15px;
+        gap: 30px;
       }
 
       .title-name {
-        font-size: 24px;
+        font-size: 30px;
       }
       
       .img-perfil {
@@ -38,7 +39,7 @@
         display: flex;
         font-size: 12px;
         text-align: start;
-
+        
       }
 
       .container-gap-perfil {
@@ -57,8 +58,8 @@
       .carousel-track {
         display: flex;
         gap: 30px;
-        width: 1px;
-      }
+        width: 100px;
+    }
       
       .carousel-item {
         display: flex;
