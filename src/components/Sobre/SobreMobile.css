@@ -1,3 +1,79 @@
 @media only screen and (max-width: 600px) {
-    
+    .container-sobre {
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px 20px 0px;
+        color: var(--color-secondary);
+        background-color: var(--color-primary);
+        background-image: radial-gradient(rgba(255, 255, 255, 0.11) 1px, transparent 0);
+        background-size: 10px 10px;
+        gap: 30px;
+      }
+
+      .container-perfil {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 15px 0px 15px;
+      }
+
+      .title-name {
+        font-size: 24px;
+      }
+      
+      .img-perfil {
+        width: 320px;
+        height: 320px;
+        border-radius: 10%;
+      }
+
+      .container-texto-perfil {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+      }
+      
+      .texto-perfil {
+        display: flex;
+        font-size: 12px;
+        text-align: start;
+
+      }
+
+      .container-gap-perfil {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+      
+      .carousel-container {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        cursor: grab;
+      }
+      
+      .carousel-track {
+        display: flex;
+        gap: 30px;
+        width: 1px;
+      }
+      
+      .carousel-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .img-carousel {
+        width: 50px;
+        height: auto;
+        filter: grayscale(100%);
+        transition: filter 0.3s ease-in-out;
+      }
+      
+      .img-carousel:hover {
+        filter: grayscale(0%);
+      }
 }

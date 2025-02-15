@@ -1,20 +1,42 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Orbitron", sans-serif;
-  color: #dedede;
-}
-
-:root {
-  --color-primary: #000000; /* Cor principal */
-  --color-secondary: white; /* Cor secundária */
-  --color-accent: ##b281f7; /* Cor de destaque */
-}
-
-.text {
-  font-size: 1.2vw;
-  font-weight: 600;
-  background-color: #000000;
+@media only screen and (min-width: 601px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+    color: #dedede;
+  }
   
+  :root {
+    --color-primary: #000000; /* Cor principal */
+    --color-secondary: white; /* Cor secundária */
+    --color-accent: ##b281f7; /* Cor de destaque */
+  }
+  
+  .text {
+    font-size: 1.2vw;
+    font-weight: 600;
+    background-color: #000000;
+  }
+
+}
+
+@media only screen and (max-width: 600px) { 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+    color: #dedede;
+  }
+  
+  :root {
+    --color-primary: #000000; /* Cor principal */
+    --color-secondary: white; /* Cor secundária */
+    --color-accent: ##b281f7; /* Cor de destaque */
+  }
+  
+  .text {
+    font-size: 18px;
+  }
 }
