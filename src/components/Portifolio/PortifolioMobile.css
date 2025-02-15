@@ -5,6 +5,8 @@
         justify-content: center;
         flex-direction: column;
         padding: 10px 15px 40px 15px;
+        background-image: radial-gradient(rgba(255, 255, 255, 0.11) 1px, transparent 0);
+        background-size: 10px 10px;
         gap: 30px;
     }
     

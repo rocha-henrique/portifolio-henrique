@@ -64,13 +64,13 @@ const HardSkills = () => {
     <div ref={sectionRef} id="HardSkills" className="container-hard-skills">
       <div className="container-text-title">
         <h1 className="title-skills">HARD SKILLS</h1>
-        <p className="text">
+        <p className="text-hard-skills">
           Desenvolvedor full-stack com foco em front-end, especializado em React, HTML, CSS e JavaScript.
         </p>
       </div>
 
       <div className="container-skills">
-        <div className="container-primeira-skills">
+        <div className="container-primeiras-skills">
           <label htmlFor="">
             JavaScript
             <div className="progress-container">
@@ -112,7 +112,7 @@ const HardSkills = () => {
           </label>
         </div>
 
-        <div className="container-segunda-skill">
+        <div className="container-segundas-skills">
           {["TypeScript", "Figma", "Docker", "HTML", "CSS"].map((skill) => (
             <SkillProgress key={skill} skill={skill} progress={progress} />
           ))}

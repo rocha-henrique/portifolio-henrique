@@ -1,10 +1,13 @@
 @media only screen and (max-width: 600px) {
-    .container-hard-skills{
+    .container-hard-skills {
         display: flex;
-        align-items: center;
-        justify-content: center;
         flex-direction: column;
-        padding: 10px 15px 40px 15px;
+        padding: 40px 15px 40px 15px;
+        margin: -10px 0px -10px 0px ;
+        color: var(--color-secondary);
+        background-color: var(--color-primary);
+        background-image: radial-gradient(rgba(255, 255, 255, 0.11) 1px, transparent 0);
+        background-size: 10px 10px;
         gap: 30px;
     }
     
@@ -14,17 +17,53 @@
         align-items: center;
         flex-direction: column;
         font-size: 0.7rem;
+        gap: 40px;
+    }
+
+    .text-hard-skills {
+        text-align: center;
+        font-size: 18px;
+    }
+        
+    .container-skills {
+        display: flex;
+        flex-direction: row;
         gap: 30px;
     }
 
-    .text {
-        text-align: center;
-        font-size: 0.7rem;
+    .container-primeiras-skills {
+        width: 100%;
     }
-        
-    .ontainer-skills {
-        display: flex;
-        flex-direction: column;
-        gap: 60px;
+
+    .container-segundas-skills {
+        width: 100%;
     }
+
+/* ProgressBar.css */
+    .progress-container {
+        width: 100%;
+        height: 5vh;
+        background-color: #DEDEDE;
+        border-radius: 4vw;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 3.2vw;
+    }
+
+    .progress-bar {
+        height: 100%;
+        background-color: #3B5998;
+        transition: width 0.1s ease-in-out;
+    }
+
+    .progress-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        color: black;
+        font-weight: bold;
+    }
+/* ProgressBar.css */
 }

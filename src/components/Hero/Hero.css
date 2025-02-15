@@ -1,3 +1,4 @@
+@media only screen and (min-width: 601px) {
 .container-hero {
   display: flex;
   width: 100%;
@@ -66,3 +67,4 @@
   animation: bounce 1.5s infinite ease-in-out; /* Animação de subida e descida */
 }
 
+}
