@@ -45,7 +45,7 @@ const ParticlesBackground = () => {
         },
         detectRetina: false, // Desabilitado para melhorar a performance em mobile
         duration: 0,
-        fpsLimit: isMobile ? 60 : 120,
+        fpsLimit: isMobile ? 120 : 120,
         interactivity: {
           detectsOn: "window",
           events: {
@@ -200,7 +200,7 @@ const ParticlesBackground = () => {
             },
             random: false,
             size: false,
-            speed: isMobile ? 2 : 5,
+            speed: isMobile ? 4 : 5,
             spin: { enable: false },
             straight: false,
             trail: {
@@ -221,7 +221,7 @@ const ParticlesBackground = () => {
               mode: "delete",
               value: 0
             },
-            value: isMobile ? 50 : 200
+            value: isMobile ? 200 : 200
           },
           opacity: {
             value: isMobile ? 0.5 : 1,
@@ -250,7 +250,7 @@ const ParticlesBackground = () => {
             type: "circle"
           },
           size: {
-            value: isMobile ? 1 : 3,
+            value: isMobile ? 4 : 3,
             animation: {
               enable: false,
               speed: 5,
