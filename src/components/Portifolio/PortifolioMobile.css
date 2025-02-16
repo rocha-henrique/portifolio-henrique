@@ -27,13 +27,13 @@
     .container-projetos {
         display: flex;
         flex-direction: column;
-        gap: 60px;
+        gap: 40px;
     }
         
     .container-cards {
         display: flex;
         flex-direction: column;
-        gap: 60px;
+        gap: 40px;
     }
         
     .card {
