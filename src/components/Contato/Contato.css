@@ -46,6 +46,9 @@
   width: 12vw;
   justify-content: center;
   margin: 0.6vw auto 0;
+  background-color: #075e54;
+  color: white;
+  font-weight: 600;
 }
 
 .form {
