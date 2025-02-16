@@ -24,7 +24,7 @@
       
       .img-perfil {
         width: 350px;
-        height: 370px;
+        height: 400px;
         border-radius: 10%;
       }
 
@@ -39,7 +39,6 @@
         display: flex;
         font-size: 12px;
         text-align: start;
-        
       }
 
       .container-gap-perfil {
