@@ -41,6 +41,8 @@
         flex-direction: column;
         width: 80vw;
         height: 80vw;
+        border: #dedede solid 1px;
+        box-shadow: 1px 0px 3px 1px white;
     }
         
     

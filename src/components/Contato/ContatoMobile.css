@@ -2,7 +2,7 @@
   .container-contato {
     display: flex;
     flex-direction: column;
-    padding: 10px 15px 40px 15px;
+    padding: 10px 20px 40px 20px;
     margin: -5px 0px -15px 0px ;
     color: var(--color-secondary);
     background-color: var(--color-primary);
