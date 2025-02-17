@@ -19,17 +19,17 @@
 
   .container-form {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 4vw;
-    gap: 2vw;
+    align-items: start;
+    justify-items: center;
+    padding: 0 3vw 0 1vw;
+    gap: 7vw;
   }
 
   .container-map {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 29vw;
+    max-width: 40vw;
     padding: 1vw;
     border: 0.1vw solid #ddd;
     border-radius: 5px;
@@ -38,7 +38,7 @@
   }
 
   .map {
-    height: 21vw;
+    height: 22vw;
   }
 
   .map-button {
@@ -54,7 +54,7 @@
 
   .form {
     width: 100%;
-    max-width: 30vw;
+    max-width: 40vw;
     height: 27vw;
     margin: 0.6vw auto;
     padding: 1vw;
