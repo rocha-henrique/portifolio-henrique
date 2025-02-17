@@ -32,8 +32,9 @@
   }
 
   .texto-perfil {
-    font-size: 1.vw;
+    font-size: 1vw;
     width: 40vw;
+    margin-bottom: 2vw;
   }
 
   .carousel-container {
