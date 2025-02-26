@@ -24,6 +24,7 @@
 
 .container-cards {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   gap: 6vw;
 }
@@ -55,9 +56,30 @@
   transform: translateY(-100%);
 }
 
+.scroll {
+  animation: scrollImage 3s linear forwards;
+}
+
+@keyframes scrollImage {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY( -70%);
+  }
+}
+
 .title-sites {
   text-align: center;
   font-size: 1.2vw;
   margin-bottom: 1vw;
   text-transform: uppercase;
 }
+
+.pb {
+  margin: 0 auto;
+  display: block; 
+  width: 35vw;
+  height: 30vw;
+}
+

@@ -9,6 +9,7 @@ import rafaelUltramar from "../../assets/Portifolio/rafaelUltramar.jpg"
 import logoGame from "../../assets/Portifolio/LogoGame.png"
 import draMaira from "../../assets/Portifolio/draMaira.jpg"
 import deliaDay from "../../assets/Portifolio/deliaDay.png"
+import pbArts from "../../assets/Portifolio/pbArts.png"
 
 const Portifolio = () => {
   return (
@@ -24,9 +25,20 @@ const Portifolio = () => {
 
         <p className="text">Landing pages desenvolvidas em parceria com a agência de marketing <a target="blank_" href="https://novadimensaodigital.com.br">Nova Dimensão Digital</a>, destacando projetos criativos e personalizados para diversos clientes.</p>
       </div>
+
       <div className="container-projetos">
         <div className="container-cards">
-
+          <label htmlFor=""> <p className="title-sites">E-commerce</p>
+            <ImageCard
+              className="pb"
+              imageSrc={pbArts}
+              link="https://www.pbartsshop.com.br/"
+              altText="PB Arts"
+              />
+          </label>
+          </div>
+          
+        <div className="container-cards">
           <label htmlFor=""> <p className="title-sites">Landing Page</p>
             <ImageCard
               imageSrc={palestraDoGab}
