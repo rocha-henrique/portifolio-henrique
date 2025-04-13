@@ -10,6 +10,10 @@ import logoGame from "../../assets/Portifolio/LogoGame.png"
 import draMaira from "../../assets/Portifolio/draMaira.jpg"
 import deliaDay from "../../assets/Portifolio/deliaDay.png"
 import pbArts from "../../assets/Portifolio/pbArts.png"
+import petzeres from "../../assets/Portifolio/petzeres.png"
+import formulaDaOratoria from "../../assets/Portifolio/formulaDaOratoria.png"
+import resetDoJejum from "../../assets/Portifolio/resetDoJejum.png"
+import resenhaCompany from "../../assets/Portifolio/resenhaCompany.png"
 
 const Portifolio = () => {
   return (
@@ -36,8 +40,44 @@ const Portifolio = () => {
               altText="PB Arts"
               />
           </label>
-          </div>
           
+          <label htmlFor=""> <p className="title-sites">E-commerce</p>
+            <ImageCard
+              className="petzeres"
+              imageSrc={petzeres}
+              link="https://www.petzeres.com.br/"
+              altText="Pet Shop,Petzeres"
+              />
+          </label>
+        </div>
+
+        <div className="container-cards">
+          <label htmlFor=""> <p className="title-sites">Site</p>
+              <ImageCard
+                imageSrc={resenhaCompany}
+                link="https://resenhacompany.com.br"
+                altText="Resenha Company"
+              />
+          </label>
+
+          <label htmlFor=""> <p className="title-sites">Landing Page</p>
+            <ImageCard
+              imageSrc={formulaDaOratoria}
+              link="https://elprofessordaoratoria.com.br/formula-da-oratoria-d-inativa"
+              altText="Formula da Oratoria"
+              />
+          </label>
+
+          <label htmlFor=""> <p className="title-sites">Landing Page</p>
+            <ImageCard
+              imageSrc={resetDoJejum}
+              link="https://dra.mairasoliani.com.br/reset-do-jejum/"
+              altText="Reset do Jejum"
+            />
+          </label>
+          
+        </div>
+
         <div className="container-cards">
           <label htmlFor=""> <p className="title-sites">Landing Page</p>
             <ImageCard

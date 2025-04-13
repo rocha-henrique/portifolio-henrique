@@ -79,7 +79,13 @@
 .pb {
   margin: 0 auto;
   display: block; 
-  width: 35vw;
-  height: 30vw;
+  width: 30vw;
+  height: 25vw;
 }
-
+  
+.petzeres {
+  margin: 0 auto;
+  display: block; 
+  width: 30vw;
+  height: 25vw;
+}

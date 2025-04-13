@@ -36,7 +36,7 @@ const NavBar = () => {
           showNavbar ? "show-navbar" : "hide-navbar"
         }`}
       >
-        <a href="#hero">
+        <a href="#hero" className="img-perfil-navBar">
           <LottiePerfil />
         </a>
 
