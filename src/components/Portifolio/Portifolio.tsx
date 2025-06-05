@@ -8,12 +8,14 @@ import as48LeisDaOratoria from "../../assets/Portifolio/as48LeisDaOratoria.jpg"
 import rafaelUltramar from "../../assets/Portifolio/rafaelUltramar.jpg"
 import logoGame from "../../assets/Portifolio/LogoGame.png"
 import draMaira from "../../assets/Portifolio/draMaira.jpg"
-import deliaDay from "../../assets/Portifolio/deliaDay.png"
+// import deliaDay from "../../assets/Portifolio/deliaDay.png"
 import pbArts from "../../assets/Portifolio/pbArts.png"
-import petzeres from "../../assets/Portifolio/petzeres.png"
+// import petzeres from "../../assets/Portifolio/petzeres.png"
 import formulaDaOratoria from "../../assets/Portifolio/formulaDaOratoria.png"
 import resetDoJejum from "../../assets/Portifolio/resetDoJejum.png"
 import resenhaCompany from "../../assets/Portifolio/resenhaCompany.png"
+import canalDaModa from "../../assets/Portifolio/canalDaModa.png"
+import leadd from "../../assets/Portifolio/leadd.png"
 
 const Portifolio = () => {
   return (
@@ -27,7 +29,7 @@ const Portifolio = () => {
           que mostram habilidades em UI/UX e inovação tecnológica.
         </p>
 
-        <p className="text">Landing pages desenvolvidas em parceria com a agência de marketing <a target="blank_" href="https://novadimensaodigital.com.br">Nova Dimensão Digital</a>, destacando projetos criativos e personalizados para diversos clientes.</p>
+        <p className="text">Landing pages desenvolvidas em parceria com a agência de marketing <a target="blank_" href="https://www.novadimensaohub.com.br/">Nova Dimensão Hub</a>, destacando projetos criativos e personalizados para diversos clientes.</p>
       </div>
 
       <div className="container-projetos">
@@ -37,16 +39,16 @@ const Portifolio = () => {
               className="pb"
               imageSrc={pbArts}
               link="https://www.pbartsshop.com.br/"
-              altText="PB Arts"
+              altText="galeria de arte PB Arts"
               />
           </label>
           
           <label htmlFor=""> <p className="title-sites">E-commerce</p>
             <ImageCard
-              className="petzeres"
-              imageSrc={petzeres}
-              link="https://www.petzeres.com.br/"
-              altText="Pet Shop,Petzeres"
+              className="canalDaModa"
+              imageSrc={canalDaModa}
+              link="https://www.canaldamodaoficial.com.br/"
+              altText="loja de roupas canalDaModa"
               />
           </label>
         </div>
@@ -60,22 +62,21 @@ const Portifolio = () => {
               />
           </label>
 
-          <label htmlFor=""> <p className="title-sites">Landing Page</p>
-            <ImageCard
-              imageSrc={formulaDaOratoria}
-              link="https://elprofessordaoratoria.com.br/formula-da-oratoria-d-inativa"
-              altText="Formula da Oratoria"
+          <label htmlFor=""> <p className="title-sites">Site</p>
+              <ImageCard
+                imageSrc={leadd}
+                link="https://leadd.com.br"
+                altText="leadd"
               />
           </label>
 
           <label htmlFor=""> <p className="title-sites">Landing Page</p>
             <ImageCard
-              imageSrc={resetDoJejum}
-              link="https://dra.mairasoliani.com.br/reset-do-jejum/"
-              altText="Reset do Jejum"
+              imageSrc={rafaelUltramar}
+              link="https://rafaelultramar.com.br/dr-rafael-ultramar-lp/"
+              altText="Rafael Ultramar"
             />
           </label>
-          
         </div>
 
         <div className="container-cards">
@@ -89,6 +90,24 @@ const Portifolio = () => {
 
           <label htmlFor=""> <p className="title-sites">Landing Page</p>
             <ImageCard
+              imageSrc={resetDoJejum}
+              link="https://dra.mairasoliani.com.br/reset-do-jejum/"
+              altText="Reset do Jejum"
+            />
+          </label>
+          
+          <label htmlFor=""> <p className="title-sites">Landing Page</p>
+            <ImageCard
+              imageSrc={draMaira}
+              link="https://dra.mairasoliani.com.br/combo-7-passos-a-ciencia-do-desconforto/"
+              altText="Dra Maira"
+            />
+          </label>
+        </div>
+
+        <div className="container-cards">
+          <label htmlFor=""> <p className="title-sites">Landing Page</p>
+            <ImageCard
               imageSrc={as48LeisDaOratoria}
               link="https://elprofessordaoratoria.com.br/as-48-leis-da-oratoria"
               altText="As 48 Leis da Oratoria"
@@ -97,29 +116,10 @@ const Portifolio = () => {
 
           <label htmlFor=""> <p className="title-sites">Landing Page</p>
             <ImageCard
-              imageSrc={rafaelUltramar}
-              link="https://rafaelultramar.com.br/dr-rafael-ultramar-lp/"
-              altText="Rafael Ultramar"
-            />
-          </label>
-          
-        </div>
-
-        <div className="container-cards">
-          <label htmlFor=""> <p className="title-sites">Landing Page</p>
-            <ImageCard
-              imageSrc={draMaira}
-              link="https://dra.mairasoliani.com.br/combo-7-passos-a-ciencia-do-desconforto/"
-              altText="Dra Maira"
-            />
-          </label>
-
-          <label htmlFor=""> <p className="title-sites">Landing Page</p>
-            <ImageCard
-              imageSrc={deliaDay}
-              link="https://deliaday.com.br/"
-              altText="Desenhos da Gi"
-            />
+              imageSrc={formulaDaOratoria}
+              link="https://elprofessordaoratoria.com.br/formula-da-oratoria-d-inativa"
+              altText="Formula da Oratoria"
+              />
           </label>
 
           <label htmlFor=""> <p className="title-sites">Jogo Mobile</p>

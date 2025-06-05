@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
 export default defineConfig({
-  base: "/portifolio-henrique/",  // Certifique-se que esse é o nome do repositório
+  base: "/portfolio-henrique/",  // Certifique-se que esse é o nome do repositório
   plugins: [react()],
   build: {
     outDir: "dist",

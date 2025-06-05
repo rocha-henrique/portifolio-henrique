@@ -1,4 +1,4 @@
-import henrique from '../../assets/Sobre/henrique.png'
+import henrique from '../../assets/Sobre/henrique.jpg'
 import StacksCarousel from './stack';
 import './SobreMobile.css';
 import './Sobre.css';

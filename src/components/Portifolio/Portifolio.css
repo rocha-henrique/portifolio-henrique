@@ -1,12 +1,13 @@
 .container-portifolio {
   display: flex;
   flex-direction: column;
-  padding: 2vw 1vw 2vw 24.5vw;
+  padding: 3vw 1vw 2vw 24.5vw;
   background-color: var(--color-primary);
   color: var(--color-secondary);
   background-image: radial-gradient(rgba(255, 255, 255, 0.11) 0.1vw, transparent 0);
   background-size: 1.5vw 1.5vw;
   gap: 4vw;
+
 }
 
 .container-title-portifolio {
@@ -83,7 +84,7 @@
   height: 25vw;
 }
   
-.petzeres {
+.canalDaModa {
   margin: 0 auto;
   display: block; 
   width: 30vw;

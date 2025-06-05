@@ -1,70 +1,68 @@
 @media only screen and (min-width: 601px) {
-.container-hero {
-  display: flex;
-  width: 100%;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-@keyframes fade {
-  0%, 100% {
-    opacity: 0;
-    transform: translateY(-20px);
+  .container-hero {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
-  50% {
-    opacity: 1;
-    transform: translateY(0);
+
+  @keyframes fade {
+    0%, 100% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    from {
+      transform: translateY(500px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 2;
+    }
   }
-  from {
-    transform: translateY(500px);
-    opacity: 0;
+
+  .frase-eu-realizo {
+    font-size: 6vw;
+    width: 30vw;
   }
-  to {
-    transform: translateY(0);
-    opacity: 2;
+
+  .frase-hero {
+    text-transform: uppercase;
+    font-size: 3.2vw;
+    font-weight: 600;
+    width: 90vw;
+    color: #fff;
+    text-align: center;
+    animation: fade 5s ease-in-out;
   }
-}
 
+  .particles-canvas {
+    overflow: hidden;
+    position: absolute;
+    zoom: 40%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
 
+  .container-seta {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: fadeIn 1s ease-in; /* Transição suave na aparição */
+  }
 
-.frase-eu-realizo {
-  font-size: 5vw;
-}
-
-.frase-hero {
-  text-transform: uppercase;
-  font-size: 3.5vw;
-  font-weight: 600;
-  width: 90vw;
-  color: #fff;
-  text-align: center;
-  animation: fade 5s ease-in-out;
-}
-
-.particles-canvas {
-  overflow: hidden;
-  position: absolute;
-  zoom: 40%;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-}
-
-.container-seta {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  animation: fadeIn 1s ease-in; /* Transição suave na aparição */
-}
-
-.seta {
-  font-size: 5vw;
-  color: white;
-  cursor: pointer;
-  animation: bounce 1.5s infinite ease-in-out; /* Animação de subida e descida */
-}
-
+  .seta {
+    font-size: 5vw;
+    color: white;
+    cursor: pointer;
+    animation: bounce 1.5s infinite ease-in-out; /* Animação de subida e descida */
+  }
 }

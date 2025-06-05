@@ -15,8 +15,8 @@
   }
 
   .img-perfil {
-    height: 29vw;
-    width: 24vw;
+    height: 30vw;
+    width: 20vw;
     border-radius: 10%;
   }
 
@@ -33,7 +33,7 @@
   }
 
   .texto-perfil {
-    font-size: 1vw;
+    font-size: 1.2vw;
     width: 40vw;
     margin-bottom: 2vw;
   }
