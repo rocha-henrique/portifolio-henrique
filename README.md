@@ -31,7 +31,7 @@ Inicie o servidor local:
 ```npm run dev```
 
 🌐 Acesse o projeto online
-[🔗 Meu Portfólio](https://rocha-henrique.github.io/portifolio-henrique/)
+[🔗 Meu Portfólio](https://rocha-henrique.github.io/portfolio-henrique/)
 
 nginx
 
